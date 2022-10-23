@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:white;
+    width: 1080px;
+    margin: 0 auto;
+    font-family:monaco;
+}
+.header {
+    height: 90px;
+    background-color: silver;
+    margin: 0 auto;
+}
+h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.login {
+    color: white;
+    background-color: steelblue;
+    box-shadow: 5px 5px 5px black;
+    height: 30px;
+    width: 100px;
+}
+.searchb {
+    width: 260px;
+    height: 30px;
+    border-color: black;
+}
+.list1 {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.list2 {
+    list-style-type: none;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    padding-top: 20px;
+    display: inline-block;
+}
+.body-left{
+    width: 600px;
+    float: left;
+}
+.left-top{
+    width:200px;
+    height: 270px;
+    border-color: black;
+    border-style: solid;
+    float: left;
+    border-right-style: none;
+    margin-top: 20px;
+}
+.left-bottom{
+    width:200px;
+    height: 270px;
+    border-color: black;
+    border-style: solid;
+    float: left;
+    border-right-style: none;
+    margin-top: 20px;
+}
+.likes {
+    color: black;
+    background-color: sandybrown;
+    box-shadow: 5px 5px 5px black;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+}
+.definition {
+    width:600px;
+    height: 270px;
+    border-color: black;
+    border-style: solid;
+    border-left-style: none;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.definition p{
+    width: 550px;
+    height: 200px;
+    padding-top: 100px;
+}
+.body-right{
+    float: right;
+    width: 400px;
+    height: 220px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 20px;
+}
+.body-right p{
+    font-size: 30px;
+    width: 300px;
+    padding: 10px;
+}
+.add{
+    color: black;
+    background-color: forestgreen;
+    box-shadow: 5px 5px 5px black;
+    height: 30px;
+    width: 350px; 
+    font-size: 25px;
+    align-item: center;
+}
+.bold{
+    font-size: 40px;
+}
+.content{
+    width:400px;
+    height: 250px;
+    padding: 20px;
+}
+.italic{
+    font-style: italic;
+}
+h2{
+    font-style: italic;
+}
