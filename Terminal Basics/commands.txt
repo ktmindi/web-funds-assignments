@@ -1,4 +1,4 @@
- Using Terminal Commands
+ Using Terminal Commands Practice Assignment
 
 Navigate to your Desktop. Create new directory called test. Make index, styles, and commands file inside test folder. Make copy of index file. Navigate to Desktop and create new directory called destination. Move copy of index file to destination folder. Remove style.css file from test folder. Check what files are in the test and destination directories. Remove destination directory. Display contents of commands.txt file in the terminal\
 
