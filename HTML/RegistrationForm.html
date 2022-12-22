@@ -1,0 +1,58 @@
+<!--Practice HTML Tags by Recreating the Registration form that is provided on CD in HTML Web Funds-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Registration Form</title>
+    </head>
+    <body>
+        <h1>My Registration Form</h1>
+        <form action="/process" method="post">
+            <div>
+                <label>FirstName</label><input type="text">
+            </div>
+            <div>
+                <label>LastName</label><input type="text">
+            </div>
+            <div>
+                <label>Email Address</label><input type="text">
+            </div>
+            <div>
+                <label>Password</label><input type="password">
+            </div>
+            <div>
+                <label>Confirm Password</label><input type="password">
+            </div>
+            <div>
+                <label>Birthday</label><input type="date">
+            </div>
+            <div>
+                <label>Gender Identity:</label>
+                <input type="radio">
+                <label for="bold">Male<label>
+                <input type="radio">
+                <label for="normal">Female<label>
+                <input type="radio">
+                <label for="bold">Non-binary<label>
+                <input type="radio">
+                <label for="normal">I prefer not to answer<label>
+            </div>
+            <div><label>A short description about yourself:</label>
+                <textarea name="comment" cols="20" rows="3"></textarea>
+            </div>
+            <div><label>Favorite Language:</label>
+                <select name="snack">
+                    <option>JavaScript</option>
+                    <option>Python</option>
+                    <option>C++</option>
+                    <option>R studio</option>
+                </select> 
+            </div>
+            <div>
+                <input type="submit" value="Create Account">
+            </div>
+        </form>
+    </body>
+</html>
