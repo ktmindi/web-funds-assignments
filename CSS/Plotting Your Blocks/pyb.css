@@ -1,0 +1,91 @@
+/*First CSS practice assignment - move blocks around to familiarize ourselves with margin and padding*/
+/* MARGIN is OUTSIDE block elements - we use it to separate a block from things AROUND it
+PADDING is INSIDE block elements - used to move block's content AWAY from its edges(borders)
+
+BOXMODEL: MARGIN-BORDER-PADDING-CONTENT
+
+INITIAL STATE 
+*{ 
+    margin: 0px;
+    padding: 0px;
+   }
+   #wrapper{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+   }
+   #header{
+    min-height: 150px;
+    background-color: green;
+   }
+   #navigation{
+    min-height: 300px;
+    width: 200px;
+    background-color: blue;
+   }
+   #main_content{
+    min-height: 400px;
+    width: 700px;
+    background-color: red;
+   }
+   .subcontents{
+    min-height: 200px;
+    width: 210px;
+    background-color: yellow;
+   }
+   #advertisement{
+    min-height: 120px;
+    width: 660px;
+    background-color: purple;
+   }*/
+
+/*CSS reset settings here*/
+*{ 
+    margin: 0px;
+    padding: 0px;
+   }
+   #wrapper{
+    width: 950px;
+    background-color: silver;
+    margin: 50px auto; /*Brings Gray block inward so you see white space at the top and bottom */
+    padding: 20px; /*Brings all color blocks inward from original location of being at the edge*/
+   }
+   #header{
+    min-height: 150px;
+    background-color: green;
+     /**/
+   }
+   #navigation{
+    min-height: 300px;
+    width: 200px;
+    background-color: blue;
+    display: inline-block;/*Inserting this line and line 68 make it so the red and blue box are in line with eachother*/
+    vertical-align: top; /*brings the blue box from aligning with the red box at the bottom to aligning at the top*/
+    margin-top: 20px; /*creates space at the top between blue and green block*/
+    /*margin-right:20px; creates space between blue and red block*/
+   }
+   #main_content{
+    min-height: 400px;
+    width: 700px;
+    background-color: red;
+    display: inline-block;/**/
+    margin-top: 20px; /*bring red block down so its not touching the green block*/
+    padding: 20px;/*bring the yellow and purple blocks inward away from the border*/
+   }
+   .subcontents{
+    min-height: 200px;
+    width: 210px;
+    background-color: yellow;
+    display: inline-block; /*makes the yellow blocks shift from vertical stacked to horizontal*/
+    /*margin-top: 20px;*/
+    margin-left:10px; /*space out yellow blocks*/
+   }
+   #advertisement{
+    min-height: 120px;
+    width: 660px;
+    background-color: purple;
+    margin-top:20px; /*bring purple block down*/
+    margin-left:10px; /*bring purple block inward to line up with yellow*/
+   }
+   
+   /*when making adjustments to get the right spacing between blue and red block, due to the size of the gray block the red one goes down to the next line.. solution i came up with would be to resize the red block or resize gray block but is there another way?*/
