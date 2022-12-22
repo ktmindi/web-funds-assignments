@@ -1,0 +1,84 @@
+<!--Create a fake blog using only HTML - it can be about anything - look at img for reference of what tags should be included-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Fake Blog</title>
+    </head>
+    <body>
+        <h1>Kieu Nguyen</h1>
+        <img src="http://" alt="an image of self" height=100 width=100>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a href="http://linkedin">My LinkedIn Profile</a>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Place</th>
+                    <th>Favorite Meal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>07/23/1999</td>
+				    <td>02/10/2008</td>
+				    <td>04/02/2010</td>
+                    <td>10/31/2017</td>
+                </tr>
+                <tr>
+                    <td>Germany</td>
+				    <td>Spain</td>
+				    <td>Vietnam</td>
+                    <td>Bora Bora</td>
+                </tr>
+                <tr>
+                    <td>Maultaschen</td>
+				    <td>Churros</td>
+				    <td>Banh Cuong</td>
+                    <td>Poisson Cru</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Bucketlist for 2020</h2>
+        <ul><!--OL V UL ordered list v unordered list-->
+            <li>Read 100 Books</li>
+            <li>Skydiving</li>
+            <li>Learn to play the drums</li>
+            <li>Clean out photos on iphone</li>
+        </ul>
+        <h2>Short Survey</h2>
+        <form action="/process" method="post">
+            <div>
+                <label>Email</label><input type="text">
+            </div>
+            <div>
+                <input type="radio"><label for="yes">Yes, please keep me updated and send me emails</label>
+                <input type="radio"><label for="no">No, please do not send me emails but ask later</label>
+            </div> <!--When user can choose only 1 option its good to use radio or drop down menus-->
+            <div><label>What size T-shirt would you like?</label>
+                <select name="size">
+                    <option>XL</option>
+                    <option>L</option>
+                    <option>M</option>
+                    <option>S</option>
+                    <option>XS</option>
+                </select> 
+            </div>
+            <div><!--When user can choose multiple things from a variety of options, using checkboxes is a good option-->
+                <h2>How did you hear about my blog?</h2>
+                <label for="facebook">Facebook</label>
+                <input type="facebook" id="fb" name="facebook" value="fb">
+                <label for="instagram">Instagram</label>
+                <input type="instagram" id="ig" name="instagram" value="fb">
+                <label for="other">Other</label>
+                <input type="other" id="o" name="other" value="o">
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </body>
+</html>
