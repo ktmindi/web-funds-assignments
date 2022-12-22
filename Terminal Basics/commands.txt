@@ -1,0 +1,22 @@
+ Using Terminal Commands
+
+Navigate to your Desktop. Create new directory called test. Make index, styles, and commands file inside test folder. Make copy of index file. Navigate to Desktop and create new directory called destination. Move copy of index file to destination folder. Remove style.css file from test folder. Check what files are in the test and destination directories. Remove destination directory. Display contents of commands.txt file in the terminal\
+
+
+
+cd Desktop
+mkdir test
+cd test 
+touch index.html
+touch styles.css
+touch commands.txt
+cp index.html index_2.html
+cd .. or cd / and cd Desktop
+mkdir destination
+mv ~/test/index_2.html ~/destination/index_2.html
+cd test
+rm styles.css
+cd .. or cd / and cd Desktop
+ls-l
+rm -rf destination[for directory with files inside]      [for empty directory to delete use rm directory_name]
+cat commands.txt}
