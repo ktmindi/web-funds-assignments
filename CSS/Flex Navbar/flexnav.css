@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+} /*Always reset settings using this CSS Code here*/
+
+/*PART ONE*/
+.center-box{
+    background-color: blue;
+    width:800px
+}
