@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+} /*Always reset settings using this CSS Code here*/
+#container{
+    width: 860px;
+    background-color: silver;
+    margin: 60px auto;
+    padding: 50px;
+}
+#navi{
+    min-height: 150px;
+    margin: auto;
+    text-align: center;
+}
+.item{
+    display: inline-block;
+}
+.blue_box{
+    background-color:lightblue;
+    width:150px;
+    height:150px;
+    border-style:solid;
+    border-color:black;
+    border-width:3px;
+    margin: 5px;
+
+}
+.red_box{
+    background-color:lightcoral;
+    width:150px;
+    height:150px;
+    border-style:solid;
+    border-color:black;
+    border-width:3px;
+    margin: 5px;
+}
+#cat{
+    margin: 10px;
+    width:130px;
+    height:130px;
+}
+#catnavi{
+    margin: 10px;
+    width:160px;
+    height:130px;
+}
+#col_one{
+    display: inline-block;
+}
+#col_two{
+    display: inline-block;
+}
+#col_three{
+    display: inline-block;
+}
+#col_four{
+    display: inline-block;
+}
+#col_five{
+    display: inline-block;
+}
