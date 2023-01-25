@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: slategrey;
+    height:50px;
+    width: 1080px;
+    margin: 20px auto;
+    display: flex;
+    padding: 10px;
+}
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 470px;
+    padding-left:480px;
+    padding-top: 10px;
+}
+a{
+    color: white;
+    font-size:18px;
+    text-decoration: none;
+}
+.btn{
+    color: white;
+    background-color: steelblue;
+    box-shadow: 5px 5px 5px black;
+    width: 100px;
+    height: 25px;
+}
+.active{
+    font-weight: bold;
+}
+h1{
+    color:white;
+    padding-left: 7px;
+}

@@ -1,0 +1,37 @@
+* {
+    font-family: sans-serif;
+}
+.container{
+    width: 800px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    text-align:center;
+    background-color: silver;
+}
+img.octocat{
+    height:200px;
+}
+.box1{
+    background-color: lightskyblue;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.box2{
+    background-color: lightpink;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.box3{
+    background-color: white;
+display: flex;
+justify-content: space-between;
+margin: 20px;
+padding: 20px;
+}
